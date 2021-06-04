@@ -1,0 +1,1696 @@
+[04cze2021 16:40:41.408] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, MineQotek, --version, 1.16.5-forge-36.1.25, --gameDir, C:\Vanilla++1165, --assetsDir, C:\Users\przem\AppData\Roaming\.minecraft\assets, --assetIndex, 1.16, --uuid, e13fe23050144122ae2af16de27d4f10, --accessToken, ????????, --userType, mojang, --versionType, release, --launchTarget, fmlclient, --fml.forgeVersion, 36.1.25, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[04cze2021 16:40:41.412] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[04cze2021 16:40:41.425] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[04cze2021 16:40:41.528] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[04cze2021 16:40:41.529] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Vanilla++1165\mods\OptiFine_1.16.5_HD_U_G8.jar
+[04cze2021 16:40:41.530] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[04cze2021 16:40:41.604] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[04cze2021 16:40:41.642] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/przem/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[04cze2021 16:40:41.647] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[04cze2021 16:40:41.678] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Vanilla++1165\config\fml.toml is not correct. Correcting
+[04cze2021 16:40:41.683] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[04cze2021 16:40:43.752] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[04cze2021 16:40:43.819] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 311
+[04cze2021 16:40:44.297] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[04cze2021 16:40:44.311] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, 1.16.5-forge-36.1.25, --gameDir, C:\Vanilla++1165, --assetsDir, C:\Users\przem\AppData\Roaming\.minecraft\assets, --uuid, e13fe23050144122ae2af16de27d4f10, --username, MineQotek, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release]
+[04cze2021 16:40:51.163] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04cze2021 16:40:52.884] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: MineQotek
+[04cze2021 16:40:53.324] [Render thread/ERROR] [net.minecraft.client.GameSettings/]: Failed to load options
+java.lang.NumberFormatException: For input string: "33:CONTROL"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_51]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_209661_a(SourceFile:162) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$2865/1354001956.apply(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_51]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_51]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_51]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_209663_a_(SourceFile:183) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$2864/103068963.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.util.Either$Left.mapBoth(Either.java:33) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.serialization.DataResult.map(DataResult.java:110) ~[datafixerupper-4.0.26.jar:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_207424_a_(SourceFile:160) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$2841/1677544922.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.Typed.lambda$updateCap$9(Typed.java:164) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.Typed$$Lambda$2857/1282611542.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda$2858/1086276486.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.util.Pair$Instance.traverse(Pair.java:90) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.profunctors.TraversalP$1.lambda$wander$0(TraversalP.java:50) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.profunctors.TraversalP$1$$Lambda$2859/1947060963.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda$2858/1086276486.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda$2858/1086276486.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.Typed.updateCap(Typed.java:164) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.Typed.update(Typed.java:138) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.Typed.update(Typed.java:133) ~[datafixerupper-4.0.26.jar:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_207423_a(SourceFile:159) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$1428/972393521.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.DataFix.lambda$null$3(DataFix.java:86) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.DataFix$$Lambda$2840/1902069190.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.functions.Comp$$Lambda$2839/2035225037.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.functions.Comp$$Lambda$2839/2035225037.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.functions.Comp$$Lambda$2839/2035225037.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.types.Type.capWrite(Type.java:167) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.types.Type.lambda$readAndWrite$9(Type.java:159) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.types.Type$$Lambda$2837/449240381.apply(Unknown Source) ~[?:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.serialization.DataResult$$Lambda$1200/336922472.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.types.Type.readAndWrite(Type.java:158) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:84) ~[datafixerupper-4.0.26.jar:?]
+	at net.minecraft.nbt.NBTUtil.func_210821_a(SourceFile:466) ~[?:?]
+	at net.minecraft.nbt.NBTUtil.func_210822_a(SourceFile:462) ~[?:?]
+	at net.minecraft.client.GameSettings.func_189988_a(GameSettings.java:891) ~[?:?]
+	at net.minecraft.client.GameSettings.func_74300_a(GameSettings.java:410) [?:?]
+	at net.minecraft.client.GameSettings.<init>(GameSettings.java:354) [?:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:406) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.1.25.jar:36.1]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$458/1088818894.call(Unknown Source) [forge-1.16.5-36.1.25.jar:36.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+[04cze2021 16:40:53.409] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Skipping bad option: key_of.key.zoom:44
+[04cze2021 16:40:53.412] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: java.lang.IllegalArgumentException: Unknown key name: 44
+[04cze2021 16:40:53.412] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.util.InputMappings.func_197955_a(SourceFile:461)
+[04cze2021 16:40:53.413] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.GameSettings.loadOfOptions(GameSettings.java:2536)
+[04cze2021 16:40:53.413] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.GameSettings.func_74300_a(GameSettings.java:876)
+[04cze2021 16:40:53.413] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.GameSettings.<init>(GameSettings.java:354)
+[04cze2021 16:40:53.413] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:406)
+[04cze2021 16:40:53.413] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.main.Main.main(Main.java:149)
+[04cze2021 16:40:53.414] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[04cze2021 16:40:53.414] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[04cze2021 16:40:53.414] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04cze2021 16:40:53.414] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[04cze2021 16:40:53.415] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+[04cze2021 16:40:53.486] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$458/1088818894.call(Unknown Source)
+[04cze2021 16:40:53.487] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[04cze2021 16:40:53.487] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[04cze2021 16:40:53.487] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[04cze2021 16:40:53.487] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[04cze2021 16:40:53.487] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[04cze2021 16:40:53.490] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[04cze2021 16:40:53.508] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[04cze2021 16:40:54.419] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] 
+[04cze2021 16:40:54.421] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OptiFine_1.16.5_HD_U_G8
+[04cze2021 16:40:54.424] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Build: 20210515-161946
+[04cze2021 16:40:54.424] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[04cze2021 16:40:54.424] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[04cze2021 16:40:54.425] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[04cze2021 16:40:54.425] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[04cze2021 16:40:54.475] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL: GeForce GTX 1650/PCIe/SSE2, version 4.6.0 NVIDIA 461.40, NVIDIA Corporation
+[04cze2021 16:40:54.476] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Version: 4.6.0
+[04cze2021 16:40:54.522] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Maximum texture size: 32768x32768
+[04cze2021 16:40:54.538] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Checking for new version
+[04cze2021 16:40:54.652] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 461.40
+[04cze2021 16:40:54.652] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[04cze2021 16:40:54.653] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Renderer: GeForce GTX 1650/PCIe/SSE2
+[04cze2021 16:40:54.653] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[04cze2021 16:40:54.653] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[04cze2021 16:40:54.653] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[04cze2021 16:40:54.653] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[04cze2021 16:40:54.654] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Load shaders configuration.
+[04cze2021 16:40:54.691] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Loaded shaderpack: SEUS-Renewed-v1.0.1.zip
+[04cze2021 16:40:54.729] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] [Shaders] Worlds: -1, 1
+[04cze2021 16:40:54.800] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Ambiguous shader option: GENERAL_GRASS_FIX
+[04cze2021 16:40:54.800] [Render thread/WARN] [net.optifine.Config/]: [OptiFine]  - in gbuffers_terrain.vsh: true
+[04cze2021 16:40:54.800] [Render thread/WARN] [net.optifine.Config/]: [OptiFine]  - in gbuffers_damagedblock.vsh: false
+[04cze2021 16:40:54.837] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Ambiguous shader option: SHADOW_MAP_BIAS
+[04cze2021 16:40:54.837] [Render thread/WARN] [net.optifine.Config/]: [OptiFine]  - in shadow.vsh, composite.fsh: 0.90
+[04cze2021 16:40:54.837] [Render thread/WARN] [net.optifine.Config/]: [OptiFine]  - in composite2.fsh: 0.9
+[04cze2021 16:40:55.000] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Version found: G7
+[04cze2021 16:40:55.056] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Option profile can not be used, no profiles defined: <profile>, key: screen
+[04cze2021 16:40:55.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: ATMOSPHERIC_SCATTERING, key: screen.ATMOSPHERICS
+[04cze2021 16:40:55.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: ATMOSPHERIC_HAZE, key: screen.ATMOSPHERICS
+[04cze2021 16:40:55.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: CREPUSCULAR_RAYS, key: screen.ATMOSPHERICS
+[04cze2021 16:40:55.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: VOLUMETRIC_CLOUDS, key: screen.ATMOSPHERICS
+[04cze2021 16:40:55.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: HQ_VOLUMETRIC_CLOUDS, key: screen.ATMOSPHERICS
+[04cze2021 16:40:55.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: SMOOTH_CLOUDS, key: screen.ATMOSPHERICS
+[04cze2021 16:40:55.060] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: ENABLE_SOFT_SHADOWS, key: screen.LIGHTING
+[04cze2021 16:40:55.060] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: PIXEL_SHADOWS, key: screen.LIGHTING
+[04cze2021 16:40:55.060] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: TONEMAP_STRENGTH, key: screen.LIGHTING
+[04cze2021 16:40:55.060] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: BRIGHTNESS_LEVEL, key: screen.LIGHTING
+[04cze2021 16:40:55.061] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] [Shaders] Invalid option: WATER_CAUSTICS, key: screen.SURFACE
+[04cze2021 16:40:55.067] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[04cze2021 16:40:55.067] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Using legacy block aliases: flattening_ids.txt
+[04cze2021 16:40:55.252] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Legacy block aliases: 2751
+[04cze2021 16:40:55.396] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux1 = textures/RippleAnimation1.png
+[04cze2021 16:40:55.551] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux2 = textures/RippleAnimation2.png
+[04cze2021 16:40:55.641] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux3 = textures/RippleAnimation3.png
+[04cze2021 16:40:55.676] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.itemConsumer
+[04cze2021 16:40:55.676] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.tessellator
+[04cze2021 16:40:56.823] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.25, for MC 1.16.5 with MCP 20210115.111550
+[04cze2021 16:40:56.823] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.25 Initialized
+[04cze2021 16:40:56.975] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Vanilla++1165\config\invtweaks-client.toml is not correct. Correcting
+[04cze2021 16:40:56.976] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:56.977] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.category was corrected from null to its default, [SimpleCommentedConfig:{name=sword, spec=[/instanceof:net.minecraft.item.SwordItem]}, SimpleCommentedConfig:{name=axe, spec=[/instanceof:net.minecraft.item.AxeItem]}, SimpleCommentedConfig:{name=pickaxe, spec=[/instanceof:net.minecraft.item.PickaxeItem]}, SimpleCommentedConfig:{name=shovel, spec=[/instanceof:net.minecraft.item.ShovelItem]}, SimpleCommentedConfig:{name=acceptableFood, spec=[/instanceof:net.minecraft.item.Food; !minecraft:rotten_flesh; !minecraft:spider_eye; !minecraft:poisonous_potato; !minecraft:pufferfish]}, SimpleCommentedConfig:{name=torch, spec=[minecraft:torch]}, SimpleCommentedConfig:{name=cheapBlocks, spec=[/tag:minecraft:cobblestone, /tag:minecraft:dirt]}, SimpleCommentedConfig:{name=blocks, spec=[/instanceof:net.minecraft.item.BlockItem]}]. 
+[04cze2021 16:40:56.977] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.rules was corrected from null to its default, [D /LOCKED, A1-C9 /OTHER]. 
+[04cze2021 16:40:56.978] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.containerOverrides was corrected from null to its default, [SimpleCommentedConfig:{containerClass=com.tfar.craftingstation.CraftingStationContainer, sortRange=}, SimpleCommentedConfig:{containerClass=tfar.dankstorage.container.DankContainers, sortRange=}, SimpleCommentedConfig:{containerClass=mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.InterfaceTerminalContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.CraftingTermContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.PatternTermContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.WirelessTermContainer, sortRange=}]. 
+[04cze2021 16:40:56.982] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:56.982] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.autoRefill was corrected from null to its default, true. 
+[04cze2021 16:40:56.982] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.quickView was corrected from null to its default, true. 
+[04cze2021 16:40:56.982] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.enableSort was corrected from null to its default, 3. 
+[04cze2021 16:40:56.983] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.enableButtons was corrected from null to its default, 3. 
+[04cze2021 16:40:59.082] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[04cze2021 16:40:59.182] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[04cze2021 16:40:59.191] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading textures ***
+[04cze2021 16:40:59.192] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Resource packs: Mod Resources
+[04cze2021 16:40:59.272] [Worker-Main-9/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:40:59.276] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Forge ***
+[04cze2021 16:40:59.277] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[04cze2021 16:40:59.378] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Vanilla++1165\config\jei-client.toml is not correct. Correcting
+[04cze2021 16:40:59.379] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:59.379] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.DebugMode was corrected from null to its default, false. 
+[04cze2021 16:40:59.379] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.CenterSearch was corrected from null to its default, false. 
+[04cze2021 16:40:59.379] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.LowMemorySlowSearchEnabled was corrected from null to its default, false. 
+[04cze2021 16:40:59.380] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.GiveMode was corrected from null to its default, MOUSE_PICKUP. 
+[04cze2021 16:40:59.380] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.MaxColumns was corrected from null to its default, 100. 
+[04cze2021 16:40:59.380] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.RecipeGuiHeight was corrected from null to its default, 350. 
+[04cze2021 16:40:59.381] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key colors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:59.381] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key colors.SearchColors was corrected from null to its default, [White:EEEEEE, LightBlue:7492cc, Cyan:00EEEE, Blue:2222dd, LapisBlue:25418b, Teal:008080, Yellow:cacb58, GoldenYellow:EED700, Orange:d97634, Pink:D1899D, HotPink:FC0FC0, Magenta:b24bbb, Purple:813eb9, JadedPurple:43324f, EvilPurple:2e1649, Lavender:B57EDC, Indigo:480082, Sand:dbd3a0, Tan:bb9b63, LightBrown:A0522D, Brown:634b33, DarkBrown:3a2d13, LimeGreen:43b239, SlimeGreen:83cb73, Green:008000, DarkGreen:224d22, GrassGreen:548049, Red:963430, BrickRed:b0604b, NetherBrick:2a1516, Redstone:ce3e36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0]. 
+[04cze2021 16:40:59.383] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:59.383] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.IngredientSortStages was corrected from null to its default, [MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU]. 
+[04cze2021 16:40:59.384] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:59.384] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ModNameSearchMode was corrected from null to its default, REQUIRE_PREFIX. 
+[04cze2021 16:40:59.384] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.TooltipSearchMode was corrected from null to its default, ENABLED. 
+[04cze2021 16:40:59.385] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.TagSearchMode was corrected from null to its default, REQUIRE_PREFIX. 
+[04cze2021 16:40:59.385] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.CreativeTabSearchMode was corrected from null to its default, DISABLED. 
+[04cze2021 16:40:59.385] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ColorSearchMode was corrected from null to its default, DISABLED. 
+[04cze2021 16:40:59.385] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ResourceIdSearchMode was corrected from null to its default, DISABLED. 
+[04cze2021 16:40:59.385] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.SearchAdvancedTooltips was corrected from null to its default, false. 
+[04cze2021 16:40:59.387] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modname was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:59.387] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modname.ModNameFormat was corrected from null to its default, blue italic. 
+[04cze2021 16:40:59.471] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[04cze2021 16:40:59.496] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Vanilla ***
+[04cze2021 16:40:59.512] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Vanilla++1165\config\forge-client.toml is not correct. Correcting
+[04cze2021 16:40:59.513] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:59.513] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to its default, false. 
+[04cze2021 16:40:59.513] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to its default, true. 
+[04cze2021 16:40:59.514] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to its default, false. 
+[04cze2021 16:40:59.514] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
+[04cze2021 16:40:59.514] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to its default, true. 
+[04cze2021 16:40:59.514] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
+[04cze2021 16:40:59.514] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to its default, true. 
+[04cze2021 16:40:59.514] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
+[04cze2021 16:40:59.515] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
+[04cze2021 16:40:59.528] [Worker-Main-9/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: jei:gui/icons/recipe_transfer, 7 -> 14
+[04cze2021 16:40:59.666] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Vanilla++1165\config\forge-common.toml is not correct. Correcting
+[04cze2021 16:40:59.667] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04cze2021 16:40:59.667] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
+[04cze2021 16:40:59.746] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:40:59.746] [Worker-Main-13/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:40:59.747] [Worker-Main-11/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:40:59.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04cze2021 16:41:00.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.1.25 Target: null
+[04cze2021 16:41:02.373] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:02.373] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:02.374] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:02.374] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:02.755] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:41:02.781] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:02.781] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[04cze2021 16:41:02.797] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[04cze2021 16:41:02.830] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[04cze2021 16:41:02.862] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[04cze2021 16:41:02.915] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[04cze2021 16:41:02.935] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[04cze2021 16:41:02.954] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[04cze2021 16:41:02.972] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[04cze2021 16:41:02.992] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[04cze2021 16:41:03.013] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[04cze2021 16:41:03.035] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[04cze2021 16:41:03.174] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[04cze2021 16:41:03.192] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[04cze2021 16:41:03.211] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[04cze2021 16:41:03.227] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[04cze2021 16:41:03.244] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[04cze2021 16:41:03.263] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[04cze2021 16:41:03.297] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[04cze2021 16:41:03.326] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[04cze2021 16:41:03.344] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[04cze2021 16:41:03.367] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[04cze2021 16:41:03.386] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[04cze2021 16:41:03.401] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[04cze2021 16:41:03.416] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[04cze2021 16:41:03.431] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[04cze2021 16:41:03.445] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[04cze2021 16:41:03.460] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[04cze2021 16:41:03.474] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[04cze2021 16:41:03.490] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[04cze2021 16:41:03.505] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[04cze2021 16:41:03.522] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[04cze2021 16:41:03.537] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[04cze2021 16:41:03.555] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[04cze2021 16:41:03.572] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[04cze2021 16:41:03.593] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[04cze2021 16:41:03.610] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[04cze2021 16:41:03.615] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[04cze2021 16:41:03.616] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[04cze2021 16:41:03.619] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[04cze2021 16:41:03.622] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[04cze2021 16:41:03.953] [Worker-Main-9/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 1/2
+[04cze2021 16:41:03.954] [Worker-Main-12/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2
+[04cze2021 16:41:04.541] [Render thread/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2
+[04cze2021 16:41:04.711] [Render thread/INFO] [STDOUT/]: [xaero.common.mods.SupportMods:<init>:35]: Xaero's Minimap: World Map found!
+[04cze2021 16:41:04.714] [Render thread/INFO] [STDOUT/]: [xaero.common.mods.SupportMods:<init>:42]: Optifine!
+[04cze2021 16:41:04.714] [Render thread/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 2/2
+[04cze2021 16:41:05.042] [Render thread/INFO] [STDOUT/]: [xaero.map.settings.ModSettings:updateRegionCacheHashCode:357]: New world map region cache hash code: 439457969
+[04cze2021 16:41:05.059] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's WorldMap Mod: Xaero's minimap found!
+[04cze2021 16:41:05.060] [Render thread/INFO] [STDOUT/]: [xaero.map.mods.SupportMods:load:23]: Optifine!
+[04cze2021 16:41:05.060] [Render thread/INFO] [STDOUT/]: [xaero.map.mods.SupportMods:load:35]: No Vivecraft!
+[04cze2021 16:41:08.553] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 4
+[04cze2021 16:41:09.993] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:41:10.008] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04cze2021 16:41:10.008] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04cze2021 16:41:10.025] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:41:10.094] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04cze2021 16:41:10.095] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04cze2021 16:41:10.145] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:41:10.263] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04cze2021 16:41:10.264] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04cze2021 16:41:10.285] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:41:10.303] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04cze2021 16:41:10.303] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04cze2021 16:41:10.322] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:41:10.350] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04cze2021 16:41:10.350] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04cze2021 16:41:10.357] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[04cze2021 16:41:10.395] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[04cze2021 16:41:10.395] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[04cze2021 16:41:11.889] [Render thread/ERROR] [net.minecraft.client.GameSettings/]: Failed to load options
+java.lang.NumberFormatException: For input string: "33:CONTROL"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_51]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_209661_a(SourceFile:162) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$2865/1354001956.apply(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_51]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_51]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_51]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_209663_a_(SourceFile:183) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$2864/103068963.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.util.Either$Left.mapBoth(Either.java:33) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.serialization.DataResult.map(DataResult.java:110) ~[datafixerupper-4.0.26.jar:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_207424_a_(SourceFile:160) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$2841/1677544922.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.Typed.lambda$updateCap$9(Typed.java:164) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.Typed$$Lambda$2857/1282611542.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda$2858/1086276486.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.util.Pair$Instance.traverse(Pair.java:90) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.profunctors.TraversalP$1.lambda$wander$0(TraversalP.java:50) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.profunctors.TraversalP$1$$Lambda$2859/1947060963.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda$2858/1086276486.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda$2858/1086276486.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.Typed.updateCap(Typed.java:164) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.Typed.update(Typed.java:138) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.Typed.update(Typed.java:133) ~[datafixerupper-4.0.26.jar:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions.func_207423_a(SourceFile:159) ~[?:?]
+	at net.minecraft.util.datafix.fixes.LWJGL3KeyOptions$$Lambda$1428/972393521.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.DataFix.lambda$null$3(DataFix.java:86) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.DataFix$$Lambda$2840/1902069190.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.functions.Comp$$Lambda$2839/2035225037.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.functions.Comp$$Lambda$2839/2035225037.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.functions.Comp$$Lambda$2839/2035225037.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.types.Type.capWrite(Type.java:167) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.types.Type.lambda$readAndWrite$9(Type.java:159) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.types.Type$$Lambda$2837/449240381.apply(Unknown Source) ~[?:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.serialization.DataResult$$Lambda$1200/336922472.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.types.Type.readAndWrite(Type.java:158) ~[datafixerupper-4.0.26.jar:?]
+	at com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:84) ~[datafixerupper-4.0.26.jar:?]
+	at net.minecraft.nbt.NBTUtil.func_210821_a(SourceFile:466) ~[?:?]
+	at net.minecraft.nbt.NBTUtil.func_210822_a(SourceFile:462) ~[?:?]
+	at net.minecraft.client.GameSettings.func_189988_a(GameSettings.java:891) ~[?:?]
+	at net.minecraft.client.GameSettings.func_74300_a(GameSettings.java:410) [?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$finishModLoading$9(ClientModLoader.java:150) [?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$4036/2006188375.run(Unknown Source) [?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) [?:?]
+	at net.minecraft.resources.AsyncReloader$$Lambda$3851/2013774732.run(Unknown Source) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:189) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:151) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(ThreadTaskExecutor.java:128) [?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:947) [?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.1.25.jar:36.1]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$458/1088818894.call(Unknown Source) [forge-1.16.5-36.1.25.jar:36.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+[04cze2021 16:41:11.910] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Skipping bad option: key_of.key.zoom:44
+[04cze2021 16:41:11.910] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: java.lang.IllegalArgumentException: Unknown key name: 44
+[04cze2021 16:41:11.910] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.util.InputMappings.func_197955_a(SourceFile:461)
+[04cze2021 16:41:11.911] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.GameSettings.loadOfOptions(GameSettings.java:2536)
+[04cze2021 16:41:11.911] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.GameSettings.func_74300_a(GameSettings.java:876)
+[04cze2021 16:41:11.911] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraftforge.fml.client.ClientModLoader.lambda$finishModLoading$9(ClientModLoader.java:150)
+[04cze2021 16:41:11.911] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$4036/2006188375.run(Unknown Source)
+[04cze2021 16:41:11.911] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
+[04cze2021 16:41:11.911] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.resources.AsyncReloader$$Lambda$3851/2013774732.run(Unknown Source)
+[04cze2021 16:41:11.911] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:189)
+[04cze2021 16:41:11.912] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[04cze2021 16:41:11.912] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:151)
+[04cze2021 16:41:11.912] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(ThreadTaskExecutor.java:128)
+[04cze2021 16:41:11.912] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:947)
+[04cze2021 16:41:11.912] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
+[04cze2021 16:41:11.913] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraft.client.main.Main.main(Main.java:184)
+[04cze2021 16:41:11.913] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[04cze2021 16:41:11.913] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[04cze2021 16:41:11.913] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04cze2021 16:41:11.913] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[04cze2021 16:41:11.913] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+[04cze2021 16:41:11.914] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$458/1088818894.call(Unknown Source)
+[04cze2021 16:41:11.914] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[04cze2021 16:41:11.915] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[04cze2021 16:41:11.915] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[04cze2021 16:41:11.916] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[04cze2021 16:41:11.916] [Render thread/INFO] [STDERR/]: [net.minecraft.client.GameSettings:loadOfOptions:2543]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[04cze2021 16:41:13.259] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[04cze2021 16:41:13.262] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[04cze2021 16:41:13.780] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x256x0 jei:textures/atlas/gui.png-atlas
+[04cze2021 16:41:13.782] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 128x256, mipmaps: 0
+[04cze2021 16:41:13.782] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 128x256, mipmaps: 0
+[04cze2021 16:41:13.783] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:13.829] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[04cze2021 16:41:13.829] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[04cze2021 16:41:13.829] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[04cze2021 16:41:13.829] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/bookmark_button_enabled
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/bookmark_button_enabled
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[04cze2021 16:41:13.830] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[04cze2021 16:41:13.831] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[04cze2021 16:41:13.831] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[04cze2021 16:41:13.831] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[04cze2021 16:41:13.832] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[04cze2021 16:41:13.832] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/vote
+[04cze2021 16:41:13.832] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/vote
+[04cze2021 16:41:13.832] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[04cze2021 16:41:13.833] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 1024x512, mipmaps: 4
+[04cze2021 16:41:13.833] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 1024x512, mipmaps: 4
+[04cze2021 16:41:13.915] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 43
+[04cze2021 16:41:13.960] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[04cze2021 16:41:13.960] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 256x128, mipmaps: 4
+[04cze2021 16:41:13.960] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 256x128, mipmaps: 4
+[04cze2021 16:41:13.961] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:13.961] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[04cze2021 16:41:13.962] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[04cze2021 16:41:13.962] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[04cze2021 16:41:13.964] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:13.968] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[04cze2021 16:41:13.968] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[04cze2021 16:41:13.968] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[04cze2021 16:41:13.971] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:13.977] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[04cze2021 16:41:13.978] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 4
+[04cze2021 16:41:13.979] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 4
+[04cze2021 16:41:13.980] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:13.982] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[04cze2021 16:41:13.982] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[04cze2021 16:41:13.982] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[04cze2021 16:41:13.983] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:13.984] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[04cze2021 16:41:13.985] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[04cze2021 16:41:13.985] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[04cze2021 16:41:13.986] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:15.096] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[04cze2021 16:41:15.096] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[04cze2021 16:41:15.096] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[04cze2021 16:41:15.097] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:15.100] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[04cze2021 16:41:15.100] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[04cze2021 16:41:15.100] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[04cze2021 16:41:15.101] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:15.101] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04cze2021 16:41:15.102] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map normal: 128x128, mipmaps: 0
+[04cze2021 16:41:15.102] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Allocate texture map specular: 128x128, mipmaps: 0
+[04cze2021 16:41:15.102] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[04cze2021 16:41:15.104] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading custom textures ***
+[04cze2021 16:41:15.114] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:15.155] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:15.157] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:24.253] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:24.441] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:24.444] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[04cze2021 16:41:24.447] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Disable Forge light pipeline
+[04cze2021 16:41:24.448] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] Set ForgeConfig.CLIENT.forgeLightPipelineEnabled=false
+[04cze2021 16:41:54.938] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Save shaders configuration.
+[04cze2021 16:43:04.153] [Render thread/WARN] [net.minecraft.client.gui.screen.MultiplayerScreen/]: Unable to start LAN server detection: error setting options
+[04cze2021 16:43:28.082] [Render thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to MikaTheBest.aternos.me., 51210
+[04cze2021 16:43:28.230] [Netty Client IO #2/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a vanilla server. Catching up missing behaviour.
+[04cze2021 16:43:28.685] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:init:39]: New world map session initialized!
+[04cze2021 16:43:28.705] [Render thread/INFO] [STDOUT/]: [xaero.common.XaeroMinimapSession:init:56]: New minimap session initialized!
+[04cze2021 16:43:29.047] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04cze2021 16:43:29.448] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[04cze2021 16:43:29.753] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[04cze2021 16:43:29.757] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 4.233 ms
+[04cze2021 16:43:29.757] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[04cze2021 16:43:29.917] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 159.5 ms
+[04cze2021 16:43:29.917] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[04cze2021 16:43:29.918] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 958.1 ?s
+[04cze2021 16:43:29.919] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[04cze2021 16:43:29.956] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 37.40 ms
+[04cze2021 16:43:29.964] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[04cze2021 16:43:29.993] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 29.54 ms
+[04cze2021 16:43:30.004] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 556.0 ms
+[04cze2021 16:43:30.344] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[04cze2021 16:43:30.413] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux1 = textures/RippleAnimation1.png
+[04cze2021 16:43:30.463] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux2 = textures/RippleAnimation2.png
+[04cze2021 16:43:30.518] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux3 = textures/RippleAnimation3.png
+[04cze2021 16:43:30.710] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: shadow
+[04cze2021 16:43:31.082] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_basic
+[04cze2021 16:43:31.102] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_textured.fsh
+0(543) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(544) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(545) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(546) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(547) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(548) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(550) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(551) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(552) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(553) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(555) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(557) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(559) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(561) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(598) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.120] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_textured
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(543) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(544) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(545) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(546) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(547) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(548) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(550) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(551) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(552) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(553) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(555) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(557) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(559) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(561) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(598) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.120] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_textured
+[04cze2021 16:43:31.139] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 16:43:31.139] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_textured_lit.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(122) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.161] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_textured_lit
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(122) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.161] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_textured_lit
+[04cze2021 16:43:31.182] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_skybasic
+[04cze2021 16:43:31.229] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_skytextured
+[04cze2021 16:43:31.268] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 16:43:31.268] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_terrain.fsh
+0(73) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(74) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(75) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(76) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(77) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(78) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(79) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(81) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(82) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(83) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(84) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(86) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(88) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(90) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(688) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.364] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_terrain
+Vertex info
+-----------
+0(34) : warning C7050: "tangent" might be used before being initialized
+0(35) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(73) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(74) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(75) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(76) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(77) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(78) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(79) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(81) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(82) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(83) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(84) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(86) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(88) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(90) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(688) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.364] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_terrain
+[04cze2021 16:43:31.417] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 16:43:31.417] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_damagedblock.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(101) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.476] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_damagedblock
+Vertex info
+-----------
+0(34) : warning C7050: "tangent" might be used before being initialized
+0(35) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(101) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.476] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_damagedblock
+[04cze2021 16:43:31.526] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 16:43:31.527] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_entities.fsh
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(56) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(61) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(63) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(65) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(67) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(69) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(137) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.551] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_entities
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(56) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(61) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(63) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(65) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(67) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(69) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(137) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.551] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_entities
+[04cze2021 16:43:31.578] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 16:43:31.578] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_armor_glint.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(105) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.594] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_armor_glint
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(105) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.594] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_armor_glint
+[04cze2021 16:43:31.624] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 16:43:31.624] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_hand.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(124) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.645] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_hand
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(124) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 16:43:31.645] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_hand
+[04cze2021 16:43:31.663] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_weather
+[04cze2021 16:43:31.948] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_water
+Vertex info
+-----------
+0(21) : warning C7050: "tangent" might be used before being initialized
+0(22) : warning C7050: "binormal" might be used before being initialized
+[04cze2021 16:43:31.948] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_water
+[04cze2021 16:43:31.972] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map distance: 120.0
+[04cze2021 16:43:31.972] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowHardwareFiltering0
+[04cze2021 16:43:31.972] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowtex1Mipmap
+[04cze2021 16:43:31.972] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor0Mipmap
+[04cze2021 16:43:31.972] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor1Mipmap
+[04cze2021 16:43:31.972] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 16:43:31.972] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 16:43:32.062] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite
+[04cze2021 16:43:32.089] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite1
+[04cze2021 16:43:32.110] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map resolution: 2048
+[04cze2021 16:43:32.110] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map distance: 120.0
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map interval size: 4.0
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowHardwareFiltering0
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowtex1Mipmap
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor0Mipmap
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor1Mipmap
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow distance render mul: 1.0
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gcolor format: RGB8
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gdepth format: RGBA8
+[04cze2021 16:43:32.111] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gnormal format: RGB16
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] composite format: RGB8
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux1 format: RGBA16
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux2 format: RGBA8
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 format: RGBA16
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux4 format: RGBA16
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Sun path rotation: -40.0
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] AO Level: 0.06
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux4 clear disabled
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Wetness halflife: 1.0
+[04cze2021 16:43:32.112] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Dryness halflife: 60.0
+[04cze2021 16:43:32.555] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite2
+[04cze2021 16:43:32.577] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 16:43:32.577] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 16:43:32.577] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 16:43:32.854] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite3
+[04cze2021 16:43:32.867] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 16:43:32.940] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite4
+[04cze2021 16:43:32.989] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite5
+[04cze2021 16:43:33.021] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite6
+[04cze2021 16:43:33.231] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: final
+[04cze2021 16:43:33.233] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedColorBuffers: 8
+[04cze2021 16:43:33.233] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedDepthBuffers: 2
+[04cze2021 16:43:33.233] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedShadowColorBuffers: 2
+[04cze2021 16:43:33.233] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedShadowDepthBuffers: 2
+[04cze2021 16:43:33.233] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedColorAttachs: 8
+[04cze2021 16:43:33.233] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedDrawBuffers: 5
+[04cze2021 16:43:33.233] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] bindImageTextures: false
+[04cze2021 16:43:33.242] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Framebuffer created: dfb
+[04cze2021 16:43:33.244] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Framebuffer created: sfb
+[04cze2021 16:43:33.247] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Reset model renderers
+[04cze2021 16:43:33.247] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Reset world renderers
+[04cze2021 16:43:33.667] [Render thread/INFO] [STDOUT/]: [xaero.common.minimap.render.radar.EntityIconManager:resetResources:140]: Reloading entity icon resources...
+[04cze2021 16:43:33.690] [Render thread/INFO] [STDOUT/]: [xaero.common.minimap.render.radar.EntityIconManager:resetResources:153]: Done!
+[04cze2021 16:44:31.563] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4 advancements
+[04cze2021 16:45:17.842] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Save shaders configuration.
+[04cze2021 16:46:21.306] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 13 advancements
+[04cze2021 16:46:55.797] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 25 advancements
+[04cze2021 16:46:58.584] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 28 advancements
+[04cze2021 16:47:20.208] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Stone Age]
+[04cze2021 16:47:20.233] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[04cze2021 16:48:23.252] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Getting an Upgrade]
+[04cze2021 16:48:23.253] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 48 advancements
+[04cze2021 16:49:56.703] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Acquire Hardware]
+[04cze2021 16:49:56.736] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 75 advancements
+[04cze2021 16:51:19.837] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Suit Up]
+[04cze2021 16:51:19.837] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Isn't It Iron Pick]
+[04cze2021 16:51:19.838] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 79 advancements
+[04cze2021 16:52:00.374] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Monster Hunter]
+[04cze2021 16:52:00.414] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 96 advancements
+[04cze2021 16:52:26.640] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 96 advancements
+[04cze2021 16:52:27.544] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 97 advancements
+[04cze2021 16:52:28.437] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 98 advancements
+[04cze2021 16:53:45.445] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 110 advancements
+[04cze2021 16:55:04.032] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 110 advancements
+[04cze2021 16:55:33.280] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 110 advancements
+[04cze2021 16:55:58.264] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 110 advancements
+[04cze2021 16:56:00.721] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 116 advancements
+[04cze2021 16:56:33.353] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 125 advancements
+[04cze2021 16:56:57.969] [Render thread/WARN] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[04cze2021 16:57:43.261] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 125 advancements
+[04cze2021 16:57:51.814] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 127 advancements
+[04cze2021 16:59:36.309] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:02:47.832] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] mika left the game
+[04cze2021 17:06:42.855] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 137 advancements
+[04cze2021 17:06:47.005] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 147 advancements
+[04cze2021 17:08:47.367] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 156 advancements
+[04cze2021 17:10:57.170] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 158 advancements
+[04cze2021 17:19:32.780] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 175 advancements
+[04cze2021 17:22:50.624] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Paadre left the game
+[04cze2021 17:25:57.323] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Not Today, Thank You]
+[04cze2021 17:25:57.346] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 175 advancements
+[04cze2021 17:27:00.946] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 177 advancements
+[04cze2021 17:28:50.990] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 177 advancements
+[04cze2021 17:29:18.263] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 177 advancements
+[04cze2021 17:31:06.380] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Respawn point set
+[04cze2021 17:31:19.579] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:32:04.647] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek was slain by lisus
+[04cze2021 17:32:58.936] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Respawn point set
+[04cze2021 17:32:58.957] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Sweet Dreams]
+[04cze2021 17:32:58.984] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 177 advancements
+[04cze2021 17:33:17.765] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 178 advancements
+[04cze2021 17:33:34.720] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Take Aim]
+[04cze2021 17:33:34.742] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 178 advancements
+[04cze2021 17:35:10.566] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:36:17.932] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Uninit
+[04cze2021 17:36:18.127] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04cze2021 17:36:18.184] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux1 = textures/RippleAnimation1.png
+[04cze2021 17:36:18.237] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux2 = textures/RippleAnimation2.png
+[04cze2021 17:36:18.300] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux3 = textures/RippleAnimation3.png
+[04cze2021 17:36:18.314] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/shadow
+[04cze2021 17:36:18.678] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_basic
+[04cze2021 17:36:18.697] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/world-1/gbuffers_textured.fsh
+0(543) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(544) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(545) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(546) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(547) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(548) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(550) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(551) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(552) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(553) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(555) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(557) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(559) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(561) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(599) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:18.723] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_textured
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(543) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(544) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(545) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(546) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(547) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(548) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(550) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(551) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(552) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(553) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(555) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(557) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(559) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(561) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(599) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:18.723] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_textured
+[04cze2021 17:36:18.741] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/world-1/Common.inc
+[04cze2021 17:36:18.741] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/world-1/gbuffers_textured_lit.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(123) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:18.762] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_textured_lit
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(123) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:18.762] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_textured_lit
+[04cze2021 17:36:18.780] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_skybasic
+[04cze2021 17:36:18.801] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_skytextured
+[04cze2021 17:36:18.840] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/world-1/Common.inc
+[04cze2021 17:36:18.840] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/world-1/gbuffers_terrain.fsh
+0(69) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(70) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(71) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(72) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(73) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(74) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(75) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(77) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(78) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(79) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(80) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(82) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(84) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(86) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(375) : warning C7533: global function texture2DLod is deprecated after version 120
+0(737) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:18.959] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_terrain
+Vertex info
+-----------
+0(34) : warning C7050: "tangent" might be used before being initialized
+0(35) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(69) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(70) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(71) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(72) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(73) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(74) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(75) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(77) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(78) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(79) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(80) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(82) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(84) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(86) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(375) : warning C7533: global function texture2DLod is deprecated after version 120
+0(737) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:18.959] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_terrain
+[04cze2021 17:36:19.007] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/world-1/Common.inc
+[04cze2021 17:36:19.007] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/world-1/gbuffers_damagedblock.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(101) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.049] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_damagedblock
+Vertex info
+-----------
+0(34) : warning C7050: "tangent" might be used before being initialized
+0(35) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(101) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.049] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_damagedblock
+[04cze2021 17:36:19.096] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/world-1/Common.inc
+[04cze2021 17:36:19.096] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/world-1/gbuffers_entities.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(132) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.116] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_entities
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(132) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.116] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_entities
+[04cze2021 17:36:19.141] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/world-1/Common.inc
+[04cze2021 17:36:19.141] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/world-1/gbuffers_armor_glint.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(105) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.154] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_armor_glint
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(105) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.155] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_armor_glint
+[04cze2021 17:36:19.180] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/world-1/Common.inc
+[04cze2021 17:36:19.180] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/world-1/gbuffers_hand.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(124) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.196] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_hand
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(124) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:19.196] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_hand
+[04cze2021 17:36:19.207] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_weather
+[04cze2021 17:36:19.500] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_water
+Vertex info
+-----------
+0(21) : warning C7050: "tangent" might be used before being initialized
+0(22) : warning C7050: "binormal" might be used before being initialized
+[04cze2021 17:36:19.500] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/gbuffers_water
+[04cze2021 17:36:19.524] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map distance: 120.0
+[04cze2021 17:36:19.524] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowHardwareFiltering0
+[04cze2021 17:36:19.524] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowtex1Mipmap
+[04cze2021 17:36:19.524] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor0Mipmap
+[04cze2021 17:36:19.524] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor1Mipmap
+[04cze2021 17:36:19.524] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 17:36:19.525] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 17:36:19.624] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/composite
+[04cze2021 17:36:19.646] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/composite1
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map resolution: 2048
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map distance: 120.0
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map interval size: 4.0
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowHardwareFiltering0
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowtex1Mipmap
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor0Mipmap
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor1Mipmap
+[04cze2021 17:36:19.666] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow distance render mul: 1.0
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gcolor format: RGB8
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gdepth format: RGBA8
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gnormal format: RGB16
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] composite format: RGB8
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux1 format: RGBA16
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux2 format: RGBA8
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 format: RGBA16
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux4 format: RGBA16
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Sun path rotation: -40.0
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 17:36:19.667] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] AO Level: 0.06
+[04cze2021 17:36:19.668] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 17:36:19.668] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux4 clear disabled
+[04cze2021 17:36:19.668] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Wetness halflife: 1.0
+[04cze2021 17:36:19.668] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Dryness halflife: 60.0
+[04cze2021 17:36:19.995] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/composite2
+[04cze2021 17:36:20.015] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 17:36:20.015] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 17:36:20.015] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 17:36:20.306] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/composite3
+[04cze2021 17:36:20.319] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 17:36:20.365] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/composite4
+[04cze2021 17:36:20.425] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/composite5
+[04cze2021 17:36:20.455] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/composite6
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: world-1/final
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedColorBuffers: 8
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedDepthBuffers: 2
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedShadowColorBuffers: 2
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedShadowDepthBuffers: 2
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedColorAttachs: 8
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedDrawBuffers: 5
+[04cze2021 17:36:20.684] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] bindImageTextures: false
+[04cze2021 17:36:20.688] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Framebuffer created: dfb
+[04cze2021 17:36:20.689] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Framebuffer created: sfb
+[04cze2021 17:36:20.691] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Reset model renderers
+[04cze2021 17:36:20.691] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Reset world renderers
+[04cze2021 17:36:20.955] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [We Need to Go Deeper]
+[04cze2021 17:36:20.991] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 199 advancements
+[04cze2021 17:36:20.991] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 199 advancements
+[04cze2021 17:36:21.627] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:36:29.361] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 199 advancements
+[04cze2021 17:36:32.350] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Uninit
+[04cze2021 17:36:32.468] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04cze2021 17:36:32.533] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux1 = textures/RippleAnimation1.png
+[04cze2021 17:36:32.587] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux2 = textures/RippleAnimation2.png
+[04cze2021 17:36:32.639] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Custom texture: texture.gbuffers.gaux3 = textures/RippleAnimation3.png
+[04cze2021 17:36:32.653] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: shadow
+[04cze2021 17:36:33.014] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_basic
+[04cze2021 17:36:33.027] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_textured.fsh
+0(543) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(544) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(545) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(546) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(547) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(548) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(550) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(551) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(552) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(553) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(555) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(557) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(559) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(561) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(598) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.027] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_textured
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(543) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(544) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(545) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(546) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(547) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(548) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(550) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(551) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(552) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(553) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(555) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(557) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(559) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(561) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(598) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.027] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_textured
+[04cze2021 17:36:33.041] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 17:36:33.041] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_textured_lit.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(122) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.042] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_textured_lit
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(122) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.042] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_textured_lit
+[04cze2021 17:36:33.053] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_skybasic
+[04cze2021 17:36:33.064] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_skytextured
+[04cze2021 17:36:33.090] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 17:36:33.090] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_terrain.fsh
+0(73) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(74) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(75) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(76) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(77) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(78) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(79) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(81) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(82) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(83) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(84) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(86) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(88) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(90) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(688) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.092] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_terrain
+Vertex info
+-----------
+0(34) : warning C7050: "tangent" might be used before being initialized
+0(35) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(73) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(74) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(75) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(76) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(77) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(78) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(79) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(81) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(82) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(83) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(84) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(86) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(88) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(90) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(688) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.092] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_terrain
+[04cze2021 17:36:33.137] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 17:36:33.137] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_damagedblock.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(101) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.139] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_damagedblock
+Vertex info
+-----------
+0(34) : warning C7050: "tangent" might be used before being initialized
+0(35) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(101) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.139] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_damagedblock
+[04cze2021 17:36:33.184] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 17:36:33.184] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_entities.fsh
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(56) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(61) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(63) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(65) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(67) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(69) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(137) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.185] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_entities
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(56) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(61) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(63) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(65) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(67) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(69) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(137) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.185] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_entities
+[04cze2021 17:36:33.207] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 17:36:33.208] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_armor_glint.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(105) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.208] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_armor_glint
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(105) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.208] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_armor_glint
+[04cze2021 17:36:33.232] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] File: 1 = /shaders/Common.inc
+[04cze2021 17:36:33.232] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shader info log: /shaders/gbuffers_hand.fsh
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(124) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.232] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_hand
+Vertex info
+-----------
+0(28) : warning C7050: "tangent" might be used before being initialized
+0(29) : warning C7050: "binormal" might be used before being initialized
+
+Fragment info
+-------------
+0(50) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(51) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(52) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(53) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(54) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(55) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(57) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(58) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(59) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(60) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(62) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(64) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(66) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(68) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(124) : warning C7533: global variable gl_FragData is deprecated after version 120
+[04cze2021 17:36:33.232] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_hand
+[04cze2021 17:36:33.244] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_weather
+[04cze2021 17:36:33.425] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Info log: gbuffers_water
+Vertex info
+-----------
+0(21) : warning C7050: "tangent" might be used before being initialized
+0(22) : warning C7050: "binormal" might be used before being initialized
+[04cze2021 17:36:33.425] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: gbuffers_water
+[04cze2021 17:36:33.448] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map distance: 120.0
+[04cze2021 17:36:33.448] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowHardwareFiltering0
+[04cze2021 17:36:33.448] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowtex1Mipmap
+[04cze2021 17:36:33.448] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor0Mipmap
+[04cze2021 17:36:33.448] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor1Mipmap
+[04cze2021 17:36:33.448] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 17:36:33.448] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 17:36:33.452] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite
+[04cze2021 17:36:33.466] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite1
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map resolution: 2048
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map distance: 120.0
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow map interval size: 4.0
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowHardwareFiltering0
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowtex1Mipmap
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor0Mipmap
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] shadowcolor1Mipmap
+[04cze2021 17:36:33.484] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Shadow distance render mul: 1.0
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gcolor format: RGB8
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gdepth format: RGBA8
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gnormal format: RGB16
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] composite format: RGB8
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux1 format: RGBA16
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux2 format: RGBA8
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 format: RGBA16
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux4 format: RGBA16
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Sun path rotation: -40.0
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] AO Level: 0.06
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux4 clear disabled
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Wetness halflife: 1.0
+[04cze2021 17:36:33.485] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Dryness halflife: 60.0
+[04cze2021 17:36:33.498] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite2
+[04cze2021 17:36:33.513] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture enabled
+[04cze2021 17:36:33.513] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Noise texture resolution: 64
+[04cze2021 17:36:33.513] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 17:36:33.519] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite3
+[04cze2021 17:36:33.531] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] gaux3 mipmap enabled
+[04cze2021 17:36:33.533] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite4
+[04cze2021 17:36:33.547] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite5
+[04cze2021 17:36:33.561] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: composite6
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Program loaded: final
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedColorBuffers: 8
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedDepthBuffers: 2
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedShadowColorBuffers: 2
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedShadowDepthBuffers: 2
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedColorAttachs: 8
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] usedDrawBuffers: 5
+[04cze2021 17:36:33.696] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] bindImageTextures: false
+[04cze2021 17:36:33.699] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Framebuffer created: dfb
+[04cze2021 17:36:33.700] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Framebuffer created: sfb
+[04cze2021 17:36:33.701] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Reset model renderers
+[04cze2021 17:36:33.701] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Reset world renderers
+[04cze2021 17:39:35.535] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek was shot by lisus
+[04cze2021 17:39:37.150] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] You have no home bed or charged respawn anchor, or it was obstructed
+[04cze2021 17:40:29.789] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 201 advancements
+[04cze2021 17:40:40.329] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 204 advancements
+[04cze2021 17:41:01.278] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Respawn point set
+[04cze2021 17:48:21.091] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 207 advancements
+[04cze2021 17:49:41.164] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 212 advancements
+[04cze2021 17:50:19.292] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:50:22.924] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:50:34.420] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:51:54.887] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:52:03.841] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 17:52:21.565] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 213 advancements
+[04cze2021 17:53:54.968] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 214 advancements
+[04cze2021 17:53:59.874] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 232 advancements
+[04cze2021 17:58:24.135] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 232 advancements
+[04cze2021 17:58:30.113] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 232 advancements
+[04cze2021 17:58:36.520] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 233 advancements
+[04cze2021 17:59:41.117] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 233 advancements
+[04cze2021 18:02:36.794] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] mika joined the game
+[04cze2021 18:03:51.602] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 233 advancements
+[04cze2021 18:03:54.259] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 235 advancements
+[04cze2021 18:04:08.489] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 235 advancements
+[04cze2021 18:04:38.214] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 235 advancements
+[04cze2021 18:06:46.197] [Render thread/WARN] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[04cze2021 18:07:12.962] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 235 advancements
+[04cze2021 18:07:15.244] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 235 advancements
+[04cze2021 18:07:39.135] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 238 advancements
+[04cze2021 18:12:31.613] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 238 advancements
+[04cze2021 18:14:09.282] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek fell from a high place
+[04cze2021 18:14:31.536] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] <lisus> <3
+[04cze2021 18:19:20.152] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 260 advancements
+[04cze2021 18:19:23.482] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 263 advancements
+[04cze2021 18:19:31.772] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 264 advancements
+[04cze2021 18:20:50.151] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] lisus left the game
+[04cze2021 18:21:00.985] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] lisus joined the game
+[04cze2021 18:21:50.262] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 267 advancements
+[04cze2021 18:21:53.096] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 273 advancements
+[04cze2021 18:22:10.322] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 274 advancements
+[04cze2021 18:23:09.994] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] mika left the game
+[04cze2021 18:27:08.884] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 274 advancements
+[04cze2021 18:29:39.809] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:cleanup:46]: Finalizing world map session...
+[04cze2021 18:29:39.851] [Thread-12/INFO] [STDOUT/]: [xaero.map.MapProcessor:updateWorldSynced:673]: World map cleaned normally!
+[04cze2021 18:29:40.967] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:cleanup:56]: World map session finalized.
+[04cze2021 18:29:40.968] [Render thread/INFO] [STDOUT/]: [xaero.common.XaeroMinimapSession:cleanup:67]: Minimap session finalized.
+[04cze2021 18:29:41.717] [Render thread/WARN] [net.minecraft.client.gui.screen.MultiplayerScreen/]: Unable to start LAN server detection: error setting options
+[04cze2021 18:37:23.391] [Render thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to MikaTheBest.aternos.me., 51210
+[04cze2021 18:37:23.571] [Netty Client IO #5/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a vanilla server. Catching up missing behaviour.
+[04cze2021 18:37:23.694] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:init:39]: New world map session initialized!
+[04cze2021 18:37:23.701] [Render thread/INFO] [STDOUT/]: [xaero.common.XaeroMinimapSession:init:56]: New minimap session initialized!
+[04cze2021 18:37:23.792] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04cze2021 18:37:24.218] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[04cze2021 18:37:24.252] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[04cze2021 18:37:24.254] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 1.203 ms
+[04cze2021 18:37:24.254] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[04cze2021 18:37:24.302] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 48.03 ms
+[04cze2021 18:37:24.302] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[04cze2021 18:37:24.302] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 186.2 ?s
+[04cze2021 18:37:24.302] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[04cze2021 18:37:24.315] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 12.59 ms
+[04cze2021 18:37:24.315] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[04cze2021 18:37:24.316] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 855.1 ?s
+[04cze2021 18:37:24.320] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 101.6 ms
+[04cze2021 18:37:24.456] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 274 advancements
+[04cze2021 18:42:50.586] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 275 advancements
+[04cze2021 18:48:39.329] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 275 advancements
+[04cze2021 18:57:45.642] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 18:57:59.052] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 18:58:00.749] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 18:58:30.903] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[04cze2021 19:02:02.580] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 277 advancements
+[04cze2021 19:03:31.407] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 279 advancements
+[04cze2021 19:04:05.829] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 287 advancements
+[04cze2021 19:05:19.268] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] MineQotek has made the advancement [Diamonds!]
+[04cze2021 19:05:19.268] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 298 advancements
+[04cze2021 19:06:35.069] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 300 advancements
+[04cze2021 19:17:33.567] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:cleanup:46]: Finalizing world map session...
+[04cze2021 19:17:33.658] [Thread-12/INFO] [STDOUT/]: [xaero.map.MapProcessor:updateWorldSynced:673]: World map cleaned normally!
+[04cze2021 19:17:35.600] [Render thread/INFO] [STDOUT/]: [xaero.map.WorldMapSession:cleanup:56]: World map session finalized.
+[04cze2021 19:17:35.601] [Render thread/INFO] [STDOUT/]: [xaero.common.XaeroMinimapSession:cleanup:67]: Minimap session finalized.
+[04cze2021 19:17:36.030] [Render thread/WARN] [net.minecraft.client.gui.screen.MultiplayerScreen/]: Unable to start LAN server detection: error setting options
+[04cze2021 19:17:41.705] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
